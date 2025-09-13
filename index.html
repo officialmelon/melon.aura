@@ -11,7 +11,8 @@
         body {bg-[#02040B]}
         .header { text-sm text-[#f8fafc] mx-auto font-roboto font-bold mt-[100]}
         .semi-header {text-xs mx-auto }
-        .socials-row {shadow-xl w-[25] bg-[#131314] mx-auto mt-[150] rounded-xl}
+        .socials-row {w-[13] bg-[#131314] mx-auto mt-[100] rounded-xl flex flex-row justify-evenly }
+        .social {w-12 rounded-xl cursor-pointer}
     </style>
 </head>
 
@@ -20,10 +21,18 @@
         <h1>melon</h1>
         <h1 style="semi-header" >@officialmelon</h1>
     </div>
+
+    <div style="header text-center">
+        <h1 style="text-sm text-center"> Hey! I'm melon a frontend developer for the gurt ecosystem. I am proficient in lua and luau, and also I am currently learning HTML & CSS to progress in web-development.</h1>
+    </div>
+
+    <div style="header text-center">
+        <h1 style="text-sm text-center">My Sites:</h1>
+        <h1 id="type.shit" style="text-sm cursor-pointer text-center">type.shit - a minimalistic typing test</h1>
+    </div>
     <div style="socials-row">
-        <img src="https://github.com/officialmelon/melon.aura/blob/main/assets/github-mark-white.png?raw=true" style="w-12 mx-auto" />
-        <img src="https://github.com/officialmelon/melon.aura/blob/main/assets/Discord-Symbol-White.png?raw=true" style="w-12 mx-auto" />
-        <img src="https://github.com/officialmelon/melon.aura/blob/main/assets/Reddit_Icon_2Color.png?raw=true" style="w-12 mx-auto" />
-        <img src="https://github.com/officialmelon/melon.aura/blob/main/assets/yt_icon_white_digital.png?raw=true" style="w-12 mx-auto" />
+        <img id="github" src="https://github.com/officialmelon/melon.aura/blob/main/assets/github-mark-white.png?raw=true" style="social" />
+        <img id="reddit"src="https://github.com/officialmelon/melon.aura/blob/main/assets/Reddit_Icon_2Color.png?raw=true" style="social" />
+        <img id="yt"src="https://github.com/officialmelon/melon.aura/blob/main/assets/yt_icon_white_digital.png?raw=true" style="social" />
     </div>
 </body>
